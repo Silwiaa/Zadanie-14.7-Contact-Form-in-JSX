@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #EFEFEF;
+}
+.app {
+    border: 5px solid grey;
+    border-top-right-radius: 40px;
+    background-color: white;
+    padding: 20px 20px 20px 70px;
+    width: 500px;
+    margin: 15px auto;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactForm input {
+    border-color: #E1E1E1;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 20px; 
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+button {
+    color: #2D3542;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #72A7FC;
+    margin-left: 10px;
+    width: 200px;
+}
+
+img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #333333;
+    float: left;
+    margin-right: 40px;
+}
+
+.contactItem {
+    padding-bottom: 30px;
+}
