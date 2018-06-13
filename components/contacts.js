@@ -11,7 +11,7 @@ var Contacts = React.createClass({
                 <ul className={'contactsList'}>
                     {contacts}
                 </ul>
-            )
-        })
+            );
+        });
     }
 });
