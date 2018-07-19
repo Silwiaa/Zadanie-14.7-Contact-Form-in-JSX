@@ -6,17 +6,17 @@ var Contact = React.createClass({
   render: function() {
     return (
         <div className={'contactItem'}>
-            <img className={'contactImage'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGkOo7f9urcUgAncwUHBvDRQVycjhpRsrXOO7Prag0W-oTpCSw'}/>
+            <img className={'contactImage'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGkOo7f9urcUgAncwUHBvDRQVycjhpRsrXOO7Prag0W-oTpCSw'}></img>
             <p className={'contactLabel'}>
-                Imię: + {this.props.item.firstName}
+                Imię: {this.props.item.firstName}
             </p>
             <p className={'contactLabel'}>
-                Nazwisko: + {this.props.item.lasttName}
+                Nazwisko: {this.props.item.lastName}
             </p>
-            <a className={'contactEmail'} href={'mailto:' + this.props.item.email}>
-               {this.props.item.email}
+            <a className={'contactEmail'} href={'email: ' + this.props.item.email}>
+               Email:{this.props.item.email}
             </a>
         </div>
     )
-  },
+  }
 });
